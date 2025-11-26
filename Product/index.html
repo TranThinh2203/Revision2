@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>1. Quản lý Sản phẩm</h2>
+    <div id="input-group-product">
+        <input type="text" id="prodName" placeholder="Tên sản phẩm...">
+        <input type="number" id="prodPrice" placeholder="Giá sản phẩm...">
+        <button id="productBtn">Thêm sản phẩm</button>
+    </div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>STT</th>
+                <th>Tên sản phẩm</th>
+                <th>Giá</th>
+                <th>Hành động</th>
+            </tr>
+        </thead>
+        <tbody id="productTableBody">
+        </tbody>
+    </table>
+
+    <h2>2. Quản lý Người dùng</h2>
+    <div id="input-group-user">
+        <input type="text" id="userName" placeholder="Tên người dùng...">
+        <input type="email" id="userEmail" placeholder="Email...">
+        <button id="userBtn">Thêm người dùng</button>
+    </div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>STT</th>
+                <th>Tên người dùng</th>
+                <th>Email</th>
+                <th>Hành động</th>
+            </tr>
+        </thead>
+        <tbody id="userTableBody">
+        </tbody>
+    </table>
+
+    <script src="./script.js"></script>
+</body>
+</html>
